@@ -1,63 +1,225 @@
 <!DOCTYPE html>
+
 <html>
 
-<head>   <!-- 👈 THIS IS HEAD -->
+<head>
   <title>Pinwheel Robotics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/style.css">
-</head>   <!-- 👈 HEAD ENDS -->
-<body> 
-<!-- HERO SECTION -->
+
+  <!-- Google Font -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+  <img src="assets/logo.png" class="logo">
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#kits">Kits</a>
+    <a href="#how">How It Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
 
 <section class="hero">
-  <h1>Where Learning Meets Innovation</h1>
+  <h1>STEM Learning Kits Designed for Schools</h1>
   <p>
-    We turn curiosity into creation through hands-on robotics, coding, and real-world problem solving.
+    Integrate robotics, coding, and applied science into your curriculum with structured, scalable STEM kits.
   </p>
-  <br>
-  <a class="btn" href="#contact">Get in Touch</a>
-  <a class="btn" href="#whatwedo" style="margin-left:10px;">Explore Programs</a>
+  <a class="btn primary" href="#contact">Partner With Us</a>
+  <a class="btn secondary" href="#kits">Explore Kits</a>
 </section>
 
-<!-- WHAT WE DO -->
+<!-- ABOUT -->
 
-<section id="whatwedo">
-  <h2>What We Do</h2>
-  <p>
-    We design and deliver practical STEM learning kits for schools and institutions, 
-    helping students bridge the gap between theory and real-world application.
+<section id="about">
+  <h2 class="title">About Pinwheel Robotics</h2>
+  <p class="subtitle">
+    Pinwheel Robotics is focused on enabling schools to deliver hands-on STEM education through well-designed kits that integrate seamlessly into academic curriculum.
+  </p>
+</section>
+<!-- UPDATES / ANNOUNCEMENTS -->
+
+<section class="updates">
+
+  <!-- Image Banner -->
+
+  <div class="updates-banner">
+    <img src="assets/images/banner.jpg" alt="Updates Banner">
+  </div>
+
+  <!-- Scrolling Updates -->
+
+  <div class="updates-ticker">
+    <div class="ticker-content">
+      🚀 New Robotics Kits Launched for Grade 5 & 6 |
+      🎓 Summer Camp Kits Available Now |
+      🏫 Now Partnering with Schools for 2026 Curriculum |
+      🧪 Custom STEM Kit Development Open for Institutions
+    </div>
+  </div>
+
+</section>
+
+<!-- WHAT WE OFFER -->
+
+<section>
+  <h2 class="title">What We Offer</h2>
+  <p class="subtitle">
+    We design and provide STEM kits that enable schools to deliver practical learning in robotics, programming, and engineering.
   </p>
 
-  <div class="cards">
+  <div class="grid">
     <div class="card">
-      <h3>Robotics & Automation</h3>
-      <p>Hands-on kits to build and understand real robotic systems.</p>
+      <h3>Curriculum Integrated Kits</h3>
+      <p>Designed to align with school learning objectives.</p>
     </div>
+    <div class="card">
+      <h3>Scalable Programs</h3>
+      <p>Suitable for multiple grades starting from Grade 3.</p>
+    </div>
+    <div class="card">
+      <h3>Teacher Enablement</h3>
+      <p>Support for teachers to deliver STEM education effectively.</p>
+    </div>
+  </div>
+</section>
 
-```
+<!-- KIT CATEGORIES -->
+
+<section id="kits">
+  <h2 class="title">Our STEM Kit Categories</h2>
+
+  <div class="grid">
+
 <div class="card">
-  <h3>Embedded Systems</h3>
-  <p>Learn electronics, microcontrollers, and real-world interfacing.</p>
+  <img src="assets/images/kit1.jpg" class="kit-img">
+  <h3>Programming Kits</h3>
+  <p>Robotics, coding, and automation-based learning systems.</p>
 </div>
 
 <div class="card">
-  <h3>AI & Smart Systems</h3>
-  <p>Introduction to intelligent systems and smart automation.</p>
+  <img src="assets/images/kit1.jpg" class="kit-img">
+  <h3>Non-Programming Kits</h3>
+  <p>Electronics, mechanical, and science-based models.</p>
 </div>
 
 <div class="card">
-  <h3>Engineering Projects</h3>
-  <p>Build practical projects that solve real-world problems.</p>
+  <img src="assets/images/kit1.jpg" class="kit-img">
+  <h3>Non-Programming Kits</h3>
+  <p>Electronics, mechanical, and science-based models.</p>
 </div>
 
 <div class="card">
-  <h3>Competition Training</h3>
-  <p>Preparation for WRO, Mekathlon, and other robotics competitions.</p>
+  <img src="assets/images/kit1.jpg" class="kit-img">
+  <h3>Non-Programming Kits</h3>
+  <p>Electronics, mechanical, and science-based models.</p>
 </div>
-```
 
   </div>
 </section>
-</body> 
+<section id="video">
+  <h2 class="title">See Our Kits in Action</h2>
+  <p class="subtitle">
+    Watch how our STEM kits enable hands-on learning in real classroom environments.
+  </p>
+
+  <div class="video-container">
+    <iframe 
+        id="youtube-video"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <a class="btn primary" href="#contact">Partner With Us</a>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <h2 class="title">How It Works</h2>
+  <div class="steps">
+
+  <div class="step"> 
+    <h3>1</h3>
+    <p>Understand school needs</p>
+  </div>
+
+  <div class="arrow">→</div>
+
+  <div class="step"> 
+    <h3>2</h3>
+    <p>Provide structured kits</p>
+  </div>
+
+  <div class="arrow">→</div>
+
+  <div class="step"> 
+    <h3>3</h3>
+    <p>Enable teachers</p>
+  </div>
+
+  <div class="arrow">→</div>
+
+  <div class="step"> 
+    <h3>4</h3>
+    <p>Students learn by doing</p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- CUSTOM KIT -->
+
+<section>
+  <h2 class="title">Custom Kit Development</h2>
+  <p class="subtitle">
+    We work with institutions and innovators to transform ideas into working prototypes and scalable STEM kits.
+  </p>
+</section>
+
+<!-- CTA -->
+
+<section class="cta" id="contact">
+     <!-- CTA Message -->
+  <h2>Partner With Pinwheel Robotics</h2>
+  <p>Fill the form below and we will get in touch with you.</p>
+
+  <!-- FORM goes inside CTA -->
+  <form id="contact-form" method="POST">
+    <input type="hidden" name="_subject" value="New Enquiry - Pinwheel Robotics">
+    <input type="text" name="name" placeholder="Your Name" required> 
+    <input type="email" name="email" placeholder="Your Email" required> 
+    <input type="text" name="school" placeholder="School / Institution Name"> 
+    <textarea name="message" placeholder="Your Requirement" rows="4"></textarea> 
+    <button type="submit">Submit Enquiry</button>
+     </form>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <p>© 2026 Pinwheel Robotics</p>
+</footer>
+<script src="js/config.js"></script>
+
+<script>
+  // Set YouTube video
+  document.getElementById("youtube-video").src =
+    "https://www.youtube.com/embed/" + CONFIG.youtubeVideoId;
+
+  // Set Formspree endpoint
+  document.getElementById("contact-form").action =
+    CONFIG.formspreeEndpoint;
+</script>
+
+</body>
 </html>
