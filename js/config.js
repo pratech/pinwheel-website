@@ -1,4 +1,4 @@
 const CONFIG = {
-youtubeVideoId: "https://www.youtube.com/watch?v=PEYewoyIOyY",
+youtubeVideoId: "PEYewoyIOyY",
 formspreeEndpoint: "https://formspree.io/f/xdaybqlg"
 };
