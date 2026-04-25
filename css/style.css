@@ -335,5 +335,71 @@ transform: translateY(-2px);
 opacity: 0.9;
 }
 
+/* Smaller hero for inner pages */
+.small-hero {
+padding: 60px 20px;
+}
+
+/* Blog page spacing */
+.blog-section {
+padding: 60px 20px;
+text-align: center;
+}
+
+/* Blog links */
+.blog-card a {
+display: inline-block;
+margin-top: 10px;
+color: #800000;
+font-weight: 600;
+text-decoration: none;
+}
+
+.blog-card a:hover {
+color: #facc15;
+}
+
+.social-section {
+text-align: center;
+padding: 40px 20px;
+background: #111;
+color: white;
+}
+
+.social-section h3 {
+margin-bottom: 20px;
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.social-icons img {
+width: 35px;
+height: 35px;
+transition: 0.3s;
+}
+
+.social-icons img:hover {
+transform: scale(1.2);
+}
+.whatsapp-float {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+padding: 10px;
+border-radius: 50%;
+z-index: 1000;
+}
+
+.whatsapp-float img {
+width: 30px;
+}
+
+
+
 
 
