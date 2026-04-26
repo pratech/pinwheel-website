@@ -38,8 +38,10 @@ document.getElementById("chat").lastChild.remove();
 addMessage(data.reply, "bot");
 
 } catch (err) {
+console.error(err);
 document.getElementById("chat").lastChild.remove();
-addMessage("Error: Unable to reach server", "bot");
+addMessage("Server is currently busy. Please try again later.", "bot");
+
 }
 }
 
