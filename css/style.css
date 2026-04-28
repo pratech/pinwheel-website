@@ -402,17 +402,19 @@ width: 30px;
 /* CHATBOT */
 
 .chat-container {
-width: 400px;
 margin: 10px auto;
+width: 100%;
+max-width: 400px;   /* keeps desktop same */
 }
 
 .chat-box {
-height: 500px;
+height: 60vh;
+min-height: 300px;
 overflow-y: auto;
 background: white;
 padding: 15px;
 border-radius: 12px;
-box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+box-shadow: 0 10px 40px rgba(0,0,0,0.2);
 }
 
 .msg {
@@ -454,7 +456,7 @@ border-radius: 8px;
 }
 
 .chat-page {
-padding: 10px 10px;
+padding: 20px;
 text-align: center; 
 display: flex;  
 flex-direction: column;
@@ -470,9 +472,7 @@ background: linear-gradient(
 
 min-height: 100vh;
 }
-.chat-box {
-  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-}
+
 .chat-header {
 background: linear-gradient(135deg, #800000, #a00000);
 color: white;
@@ -497,16 +497,13 @@ margin-top: 5px;
   margin-top: 5px;
   color: #facc15;
 }
-.chatbot-page {
-overflow: hidden;
-height: 100vh;
+@media (max-width: 480px) {
+  .chat-box {
+    height: 50vh;
+  }
 }
-.chat-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
+
 
 
 
