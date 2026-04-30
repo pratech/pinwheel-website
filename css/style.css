@@ -437,14 +437,18 @@ background: #eee;
 .chat-input {
 display: flex;
 gap: 10px;
+
 margin-top: 10px;
+align-items: center;
 }
 
 .chat-input input {
 flex: 1;
 padding: 12px;
+font-size: 16px;   /* 🔥 critical */
 border-radius: 8px;
 border: 1px solid #ccc;
+min-width: 0;   /* 🔥 prevents overflow */
 }
 
 .chat-input button {
@@ -453,6 +457,7 @@ color: white;
 border: none;
 padding: 12px;
 border-radius: 8px;
+flex-shrink: 0;   /* 🔥 prevents shrinking */
 }
 
 .chat-page {
