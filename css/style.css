@@ -508,6 +508,46 @@ margin-top: 5px;
   }
 }
 
+.experience-cta{
+    background:#fff8e6;
+}
+.payment-button{
+    display:flex;
+    justify-content:center;
+    margin-top:25px;
+}
+
+.upi-id{
+
+    display:inline-block;
+
+    background:#facc15;
+
+    color:#800000;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    letter-spacing:1px;
+
+}
+
+.upi-qr{
+
+    width:220px;
+
+    margin-top:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
 
 
 
