@@ -65,24 +65,53 @@
   </p>
 </section>
 <!-- UPDATES / ANNOUNCEMENTS -->
+<!-- ANNOUNCEMENTS -->
 
-<section class="updates">
+<section class="announcements">
 
-  <!-- Image Banner -->
-
-  <div class="updates-banner">
-    <img src="assets/images/banner.png" alt="Updates Banner">
+  <div class="announcement-header">
+    <span class="announcement-badge">📢 LATEST</span>
+    <h2 class="title">What's Happening at Pinwheel</h2>
+    <p class="subtitle">
+      Discover our latest robotics sessions, STEM activities and community events.
+    </p>
   </div>
 
-  <!-- Scrolling Updates -->
+  <div class="announcement-card">
 
-  <div class="updates-ticker">
-    <div class="ticker-content">
-      🚀 New Robotics Kits Launched for Grade 5 & 6 |
-      🎓 Summer Camp Kits Available Now |
-      🏫 Now Partnering with Schools for 2026 Curriculum |
-      🧪 Custom STEM Kit Development Open for Institutions
+    <div class="announcement-date">
+      <span>📅</span>
+      <strong id="announcement-date">Today</strong>
     </div>
+
+    <div class="announcement-content">
+
+      <h3 id="announcement-title">
+        Robotics Thinking Session
+      </h3>
+
+      <p id="announcement-description">
+        A robotics theory and thinking session for young learners,
+        exploring how robots work, how they solve problems and how we
+        can design robots of our own.
+      </p>
+
+      <p class="announcement-location">
+        📍 <strong id="announcement-location">
+          Assetz Marq – Phase 2 & Phase 3
+        </strong>
+      </p>
+
+      <a
+        id="announcement-link"
+        class="btn primary"
+        href="#"
+        target="_blank">
+        Know More →
+      </a>
+
+    </div>
+
   </div>
 
 </section>
@@ -273,6 +302,25 @@
   // Set Formspree endpoint
   document.getElementById("contact-form").action =
     CONFIG.formspreeEndpoint;
+
+   // Set latest announcement
+  if (CONFIG.announcement) {
+
+    document.getElementById("announcement-date").textContent =
+      CONFIG.announcement.date;
+
+    document.getElementById("announcement-title").textContent =
+      CONFIG.announcement.title;
+
+    document.getElementById("announcement-description").textContent =
+      CONFIG.announcement.description;
+
+    document.getElementById("announcement-location").textContent =
+      CONFIG.announcement.location;
+
+    document.getElementById("announcement-link").href =
+      CONFIG.announcement.link;
+  }
 </script>
 
 </body>

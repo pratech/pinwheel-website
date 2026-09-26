@@ -549,6 +549,97 @@ margin-top: 5px;
 
 }
 
+/* ANNOUNCEMENTS */
+
+.announcements {
+  padding: 60px 20px;
+  background: #fff8e6;
+  text-align: center;
+}
+
+.announcement-header {
+  max-width: 800px;
+  margin: auto;
+}
+
+.announcement-badge {
+  display: inline-block;
+  background: #800000;
+  color: white;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.announcement-card {
+  max-width: 850px;
+  margin: 35px auto 0;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+  border-left: 6px solid #800000;
+}
+
+.announcement-date {
+  min-width: 100px;
+  text-align: center;
+  background: #facc15;
+  color: #800000;
+  padding: 15px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.announcement-date span {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.announcement-content {
+  flex: 1;
+}
+
+.announcement-content h3 {
+  margin-top: 0;
+  color: #800000;
+  font-size: 24px;
+}
+
+.announcement-content p {
+  line-height: 1.7;
+}
+
+.announcement-location {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+
+  .announcement-card {
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .announcement-date {
+    width: auto;
+    align-self: flex-start;
+  }
+
+  .announcement-content h3 {
+    font-size: 20px;
+  }
+
+}
+
 
 
 
